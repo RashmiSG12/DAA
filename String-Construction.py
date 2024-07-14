@@ -15,9 +15,9 @@ import sys
 
 def stringConstruction(s):
     # Write your code here
-     unique_characters = set(s)
-  
-     return len(unique_characters)
+     chr = set(s)
+     n = len(chr)
+     return n
    
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
